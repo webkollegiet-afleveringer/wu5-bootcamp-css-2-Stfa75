@@ -104,7 +104,7 @@ figure {
     
 }
 figure img{
-    grid-column: 2;
+    grid-column: 2/3;
     grid-row: 4;
 }
 .sidetext{
@@ -241,6 +241,11 @@ figure img{
     display: flex;
     justify-content: space-between;
     gap: 10px;
+}
+.artikler img {
+    width: 180px;
+    height: 100px;
+    margin-top: 20px;
 }
 .nyt{
     margin: 0 auto;
